@@ -1,5 +1,4 @@
-2016-01-31 23:40:34.0310|INFO|thread:18|DashboardViewModel|Selected repository '/Tutorial'
-2016-01-31 23:37:41.3541|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA RAW
+2016-01-31 23:40:34.0310|INFO|thread:18|DashboardViewModel|Selected repository '/Tutorial
 2016-01-31 23:37:41.3689|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
 2016-01-31 23:37:41.3689|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA UNENCODED
 2016-01-31 23:37:41.3689|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
@@ -7,14 +6,12 @@
 2016-01-31 23:37:41.3847|INFO|thread: 1|CommandLineHandler|Unprocessed args: http://github-windows.s3.amazonaws.com/GitHub.application
 2016-01-31 23:37:41.4003|WARN|thread: 1|CommandHandler|Exception occurred while opening path 'http://github-windows.s3.amazonaws.com/GitHub.application'
 System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at GitHub.Helpers.CommandHandler.SelectRepositoryByPath(String path)
 2016-01-31 23:37:41.4627|INFO|thread: 1|AppInstance|Starting up as master instance of GitHub Desktop
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| #########################################
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| GitHub Desktop started. VERSION: 3.0.12.0
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| Build version: c42ff11fcb28172b46055153a72a72e41f2259c6
-#READ Me
-## Changes
-hello
-**changes**
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| ***************************************
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| ***                                 ***
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| ***                                 ***
@@ -28,7 +25,7 @@ hello
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| CLR Version: 4.0.30319.42000
 2016-01-31 23:37:41.5572|INFO|thread: 4|StartupLogging| Current culture: en-US
 2016-01-31 23:37:41.5721|INFO|thread: 4|StartupLogging| Environment.CurrentDirectory: C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894
-2016-01-31 23:37:41.5721|INFO|thread: 4|StartupLogging| currentProcess.StartInfo.WorkingDirectory: 
+2016-01-31 23:37:41.5721|INFO|thread: 4|StartupLogging| currentProcess.StartInfo.WorkingDirectory:
 2016-01-31 23:37:41.5721|INFO|thread: 4|StartupLogging| Terminal Services session: no
 2016-01-31 23:37:41.5721|INFO|thread: 4|StartupLogging| Location: C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\GitHub.exe
 2016-01-31 23:37:41.6663|INFO|thread: 1|HardwareRenderingHelper|Making a WMI query to discover any video PNPID entries
@@ -68,8 +65,8 @@ System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0
 2016-01-31 23:37:42.2605|INFO|thread: 4|ShortcutManager|Creating ClickOnce shortcut 'C:\Users\Guest\AppData\Local\GitHub\GitHub.appref-ms'
 2016-01-31 23:37:42.3377|INFO|thread: 4|ShortcutManager|Saving the Git Shell shortcut C:\Users\Guest\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\Git Shell.lnk
 2016-01-31 23:37:42.3565|INFO|thread: 4|ShortcutManager|Saving the Git Shell shortcut \\vmware-host\Shared Folders\Desktop\Git Shell.lnk
-2016-01-31 23:37:42.3846|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\l1n3ixap.3je.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\PortableGit.7z"', Working Directory: 
-2016-01-31 23:37:42.3846|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\f43szuvn.onw.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\tutorial.7z"', Working Directory: 
+2016-01-31 23:37:42.3846|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\l1n3ixap.3je.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\PortableGit.7z"', Working Directory:
+2016-01-31 23:37:42.3846|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\f43szuvn.onw.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\tutorial.7z"', Working Directory:
 2016-01-31 23:37:42.4492|INFO|thread: 4|PortablePackageManager|Extracting PortableGit.7z is (so far) successful
 2016-01-31 23:37:42.4492|INFO|thread: 1|PortablePackageManager|Extracting tutorial.7z is (so far) successful
 2016-01-31 23:37:42.4650|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA RAW
@@ -83,7 +80,7 @@ System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0
 2016-01-31 23:37:46.7962|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
 2016-01-31 23:37:46.7962|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
 2016-01-31 23:37:52.8717|INFO|thread: 5|SoftwareUpdateViewModel|Checking for new version
-2016-01-31 23:37:54.5963|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\fwptorhf.ga1.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\gitignore.7z"', Working Directory: 
+2016-01-31 23:37:54.5963|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\fwptorhf.ga1.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\gitignore.7z"', Working Directory:
 2016-01-31 23:37:54.6178|INFO|thread: 1|PortablePackageManager|Extracting gitignore.7z is (so far) successful
 2016-01-31 23:37:57.4532|INFO|thread:18|DashboardViewModel|Selected repository '/Tutorial'
 2016-01-31 23:37:57.5012|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 1 at GitClient.cs:628
@@ -122,7 +119,7 @@ System.Collections.Generic.KeyNotFoundException: The given key 'login:github.com
 2016-01-31 23:39:03.7828|INFO|thread:14|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\git-bash.exe', Args: '--no-needs-console --hide --no-cd --command=post-install.bat', Working Directory: C:\Users\Guest\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c
 2016-01-31 23:39:03.9808|INFO|thread:14|MsysGitCertificateInstaller|Generated certificate cache with 156 certificates
 2016-01-31 23:39:03.9808|INFO|thread:14|MsysGitCertificateInstaller|Created certificate bundle with 164 entries
-2016-01-31 23:39:04.0217|INFO|thread:14|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\v0quqanc.d1b.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\lfs-amd64.7z"', Working Directory: 
+2016-01-31 23:39:04.0217|INFO|thread:14|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\7za.exe', Args: 'x -y "-oC:\Users\Guest\AppData\Local\GitHub\v0quqanc.d1b.deleteme" "C:\Users\Guest\AppData\Local\Apps\2.0\1OXMKCHJ.XDB\QQ44M66H.RE4\gith..tion_317444273a93ac29_0003.0000_20a3dfa4ba8ba894\lfs-amd64.7z"', Working Directory:
 2016-01-31 23:39:04.0217|INFO|thread: 4|StartupSequence|Took 81652ms to Update certificate bundle from system store
 2016-01-31 23:39:04.0369|INFO|thread:14|PortablePackageManager|Extracting lfs-amd64.7z is (so far) successful
 2016-01-31 23:39:04.3804|INFO|thread: 5|PortablePackageManager|Extracted package successfully: lfs-amd64.7z
